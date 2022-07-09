@@ -52,6 +52,9 @@ body {
   transition: all 1s;
 }
 
+.centrar{
+  text-align:justify;
+}
 .logo {
   text-decoration: none;
   position: fixed;
@@ -83,7 +86,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--accent-color);
+  background-color:chocolate;
 }
 
 .avatar-container img {
@@ -118,7 +121,7 @@ h1 {
 }
 
 .text-section {
-  background-color: var(--primary-color);
+  background-color:yellowgreen;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,7 +132,7 @@ h1 {
 .title-section {
   display: flex;
   align-items: center;
-  background-color: var(--accent-color);
+  background-color:violet;
   color: var(--primary-color-dark);
   text-transform: uppercase;
   font-weight: 800;
